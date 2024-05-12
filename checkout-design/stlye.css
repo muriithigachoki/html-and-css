@@ -1,0 +1,289 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid wheat;
+    background-color: F5F5F5;
+    margin-top: 15px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#myDropdown {
+    height: 30px;
+    border: none white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 70px;
+}
+
+.shopping-bag {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+
+
+/* main content */
+.main {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 500px;
+    height: 540px;
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.account-page,
+.shopping,
+.payment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.order-summery {
+    width: 400px;
+    height: 540px;
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+
+#password,
+#email {
+    background-color: rgb(199, 198, 198);
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.account-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    width: 450px;
+    margin-left: 30px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+#email {
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+#password {
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: end;
+    height: 40px;
+}
+
+.btn {
+    background-color: blue;
+    border: none;
+    border-radius: 9px;
+    width: 100px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    padding-left: 20px;
+}
+
+
+
+.shipping {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 0px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+.shipping-details {
+    width: 170px;
+}
+
+
+
+.order-details {
+    width: 400px;
+}
+
+.product-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.decrement-btn,
+.increment-btn {
+    width: 24px;
+    height: 24px;
+}
+
+.price {
+    margin-top: 0px;
+}
+
+.payment-mode {
+    display: flex;
+    flex-direction: column
+}
+
+
+input {
+    border: 2px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    background-color: lightgray;
+}
+
+form#Discount-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form#Discount-form.apply-btn {
+    width: 50px;
+    height: 40px;
+}
+
+button#Gift-card\ Discount-card {
+    width: 100px;
+    height: 40px;
+    border: 2px;
+    border-radius: 10px;
+    background-color: blue;
+
+}
+
+button#Gift-card\ Discount-card :hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.separator {
+    display: inline-block;
+    width: 20px;
+    /* Adjust as needed */
+    border-bottom: 1px solid black;
+    /* Style and color of the line */
+    margin: 0 5px;
+    /* Adjust spacing as needed */
+}
+
+.sub-total,
+.tax,
+.shipping-cost,
+.total-cost {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 40px;
+}

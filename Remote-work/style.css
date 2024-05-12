@@ -1,0 +1,85 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-right: 40px;
+    /* width: 900px; */
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.snap {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: center;
+}
+
+.work-details {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.account {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.btn {
+    width: 70px;
+    height: 30px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#Dropdown {
+    border: none;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.remote-work-info {
+    width: 400px;
+}
+
+p {
+    font-size: 20px;
+}
