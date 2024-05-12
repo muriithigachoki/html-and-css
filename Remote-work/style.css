@@ -83,3 +83,11 @@ h3 {
 p {
     font-size: 20px;
 }
+
+.learn-more {
+    background-color: black;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
